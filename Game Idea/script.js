@@ -2,6 +2,7 @@ const boardCols = 12;
 const boardRows = 8;
 let boardArray = [];
 
+//This function makes the board on the spot as well as assign its name
 function createBoard() {
     const gameBoard = document.getElementById("game-board");
 
