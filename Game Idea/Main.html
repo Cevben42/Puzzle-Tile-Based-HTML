@@ -6,10 +6,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>Game Score Here</div>
-    <div>Status here</div>
-    <div id="game-board"></div>
+    <div id="ui_container">
+        <div id="game_score">Game Score: 0</div>
+        <div id="main_content">
+            <div id="game_board"></div>
+            <div id="status_log">
+                <h3>Status</h3>
+                <div id="log_entries"></div>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
+    <script src="player.js"></script>
 </body>
 </html>
