@@ -11,7 +11,7 @@ body {
     overflow: hidden; /* Hide the scrollbar */
 }
 
-#ui_container {
+#ui-container {
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -19,19 +19,19 @@ body {
     box-sizing: border-box;
 }
 
-#game_score {
+#game-score {
     margin-bottom: 10px;
     font-size: 18px;
 }
 
-#main_content {
+#main-content {
     display: flex;
     flex: 1;
     overflow: hidden;
     position: relative;
 }
 
-#game_board {
+#game-board {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 2px;
@@ -62,7 +62,7 @@ body {
     background-color: green !important;
 }
 
-#status_log {
+#status-log {
     width: 240px;
     background-color: #111;
     border: 1px solid #555;
