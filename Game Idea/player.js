@@ -26,7 +26,7 @@ function movePlayer(dx, dy) {
 }
 
 function logStatus(message) {
-    const log = document.getElementById("log_entries");
+    const log = document.getElementById("log-entries");
     const entry = document.createElement("div");
     entry.textContent = message;
     log.prepend(entry); // Latest entry on top
