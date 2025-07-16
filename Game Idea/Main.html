@@ -7,7 +7,10 @@
 </head>
 <body>
     <div id="ui-container">
-        <div id="game-score">Game Score: 0</div>
+        <div id="game-score">
+            <span id="score-label">Score: <span id="score-value">0</span></span>
+            <span id="health-label">Health: <span id="health-value">3</span></span>
+        </div>
         <div id="main-content">
             <div id="game-board"></div>
             <div id="status-log">
@@ -19,5 +22,8 @@
 
     <script src="script.js"></script>
     <script src="player.js"></script>
+    <script src="whiteTile.js"></script>
+    <script src="redTile.js"></script>
+    <script src="events.js"></script>
 </body>
 </html>
