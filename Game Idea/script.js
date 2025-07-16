@@ -1,5 +1,5 @@
 const boardCols = 12;
-const boardRows = 8;
+const boardRows = 7;
 let boardArray = [];
 
 function createBoard() {
